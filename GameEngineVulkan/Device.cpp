@@ -62,7 +62,7 @@ bool Device::isDeviceSuitable(VkPhysicalDevice device)
 		swapChainAdequate = !swapChainSupport.formats.empty() && !swapChainSupport.presentModes.empty();
 	}
 
-	return deviceProperties.deviceType == VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU &&
+	return deviceProperties.deviceType == /*VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU*/ 1 &&
 		deviceFeatures.geometryShader && 
 		m_indices.isComplete() &&
 		extensionsSupported &&
