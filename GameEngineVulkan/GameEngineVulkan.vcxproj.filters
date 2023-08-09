@@ -33,7 +33,7 @@
     <ClInclude Include="SwapChain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="ShaderCompiler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -56,7 +56,7 @@
     <ClCompile Include="SwapChain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shader.cpp">
+    <ClCompile Include="ShaderCompiler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
